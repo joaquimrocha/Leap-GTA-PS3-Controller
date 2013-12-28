@@ -1,0 +1,72 @@
+-----------------------------------------
+Leap Motion GTA V Controller (on the PS3)
+-----------------------------------------
+
+This is a proof of concept to control the GTA V game on a PS3 by using
+a Leap Motion device.
+
+The project gets the hand gestures from the Leap Motion and simulates key
+combos which should be detected by GIMX (which allows to control a PS3 from
+a PC) and simulate the corresponding actions on the PS3.
+
+----------
+How to Use
+----------
+
+Assuming you have all that is needed for the Leap device and the GIMX to
+be used...
+
+Run the leapd daemon, then run leap-gnome-controller.py:
+$ leapd &
+$ ./leap-gta5-controller.py
+
+Run the GIMX emuclient with the provided configuration file:
+$ ./emuclient --config gta-v-leap-config.xml
+
+To know how to install and use the GIMX project, please refer to:
+http://gimx.fr/wiki/index.php?title=Main_Page#Tutorials
+
+--------
+Gestures
+--------
+
+There are gestures not only to control the character in GTA V but also
+to navigate the PS3 menu and choose the game (or use the confirm action).
+
+List of Gestures for the Menu
+------------------------------
+
+To be used with one hand:
+
+---------------------------------------------------------------------
+| Confirm/Choose                | Key tap gesture with one finger   |
+| Go Left/Right/Up/Down         | Swipe left/right/up/down with one |
+|                               | finger, respectively              |
+---------------------------------------------------------------------
+
+List of Gestures In-Game
+-------------------------
+
+To be used with one hand:
+
+---------------------------------------------------------------------
+| Walk Forward                  | Open hand, palm facing down       |
+| Walk Left/Right               | Rotate the open palm left/right   |
+| Walk Back/Down                | Open hand, palm facing up         |
+| Run                           | Key tap gesture repeatedly with   |
+|                               | the open hand                     |
+| Jump                          | Quick swipe gesture upward, with  |
+|                               | an open hand                      |
+| Enter/Leave Car               | Circle gesture with an open hand  |
+| Accelerate (in car)           | Two closed fists as if grabbing a |
+|                               | steering wheel                    |
+| Break (in car)                | Same as above but with the hands  |
+|                               | open                              |
+| Steering Left/Right (in car)  | As you expect...                  |
+---------------------------------------------------------------------
+
+-------
+License
+-------
+
+This project is released under GPLv3's terms and conditions.

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <controller id="1" dpi="0">
+    <configuration id="1">
+      <trigger type="" id="" name="" button_id="" switch_back="no" delay="1"/>
+      <mouse_options_list/>
+      <intensity_list/>
+      <button_map>
+        <button id="square" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="SPACE"/>
+        </button>
+        <button id="triangle" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="cross" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="RETURN"/>
+        </button>
+        <button id="circle" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="ESCAPE"/>
+        </button>
+        <button id="cross" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="r"/>
+        </button>
+        <button id="r2" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </button>
+        <button id="l2" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="lstick left" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LEFT"/>
+        </axis>
+        <axis id="lstick right" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="RIGHT"/>
+        </axis>
+        <axis id="lstick up" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="UP"/>
+        </axis>
+        <axis id="lstick down" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="DOWN"/>
+        </axis>
+      </axis_map>
+    </configuration>
+  </controller>
+</root>
